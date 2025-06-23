@@ -1,0 +1,63 @@
+body { 
+    margin: 0; 
+    font-family: sans-serif; 
+}
+.header { 
+    background: #8a4fff; 
+    color: white; 
+    padding: 1rem; 
+    text-align: center; 
+}
+.container { 
+   
+    padding: 1rem; 
+}
+.tables { 
+    display: flex; 
+    gap: 2rem; 
+}
+table { 
+    border-collapse: collapse; 
+    width: 100%; 
+}
+caption { 
+    font-weight: bold; 
+    margin-bottom: .5rem; 
+    color:#8a4fff;
+    font-size: 1.25rem;
+}
+th, td { 
+    border:1px solid #333; 
+    padding:.5rem; 
+    text-align:center; 
+}
+.filtros { 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: flex-end;
+    margin-bottom: 2rem;
+    
+}
+.filtros label { 
+    display:flex; 
+    flex-direction:column; 
+    flex: 1 1 200px;
+}
+.filtros button { 
+    background:#8a4fff; 
+    border:none; 
+    color:white; 
+    margin-top: 1.75rem; 
+    padding:.75rem 1.5rem; 
+    cursor:pointer; 
+    border-radius:4px; 
+}
+.resultados { 
+    width: 80%;   
+    margin-top:0 auto; 
+}
+.resultados h2 { 
+    margin-bottom:.5rem; 
+    color: #8a4fff;
+}

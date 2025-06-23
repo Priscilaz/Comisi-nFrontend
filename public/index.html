@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>FastCommission</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <h1>FastCommission</h1>
+  </header>
+
+  <main class="container">
+    <section class="tables">
+      <table class="ventas">
+        <caption>Ventas</caption>
+        <thead><tr><th>Fecha</th><th>Vendedor</th><th>Monto</th></tr></thead>
+        <tbody id="ventas-body"></tbody>
+      </table>
+      <table class="reglas">
+        <caption>Reglas</caption>
+        <thead><tr><th>%</th><th>Monto</th></tr></thead>
+        <tbody id="reglas-body"></tbody>
+      </table>
+    </section>
+
+    <section class="filtros">
+      <form id="filtro-form">
+        <label>Inicio<br><input type="date" id="inicio" required></label>
+        <label>Fin<br><input type="date" id="fin" required></label>
+        <button type="submit">Listar</button>
+      </form>
+    </section>
+
+    <section class="resultados" id="resultados" style="display:none">
+      <h2>Comisiones</h2>
+      <table>
+        <thead><tr><th>Vendedor</th><th>Comisión</th></tr></thead>
+        <tbody id="comisiones-body"></tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
