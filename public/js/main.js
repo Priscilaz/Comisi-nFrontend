@@ -1,4 +1,4 @@
-const API_BASE = 'https://localhost:7090/api/comisiones';
+const API_BASE = 'https://comisi-nbackend.onrender.com/api/comisiones';
 
 async function fetchJSON(url, opts) {
   const res = await fetch(url, opts);
